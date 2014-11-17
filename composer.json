@@ -1,0 +1,22 @@
+{
+	"name": "bazo/nette-events-extension",
+	"type": "library",
+	"description": "Really simple events dispatcher for Nette Framework",
+	"keywords": ["Nette", "events", "dispatcher"],
+	"homepage": "https://github.com/bazo/nette-events-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Martin Bažík",
+			"email": "martin@bazo.sk",
+			"homepage": "http://bazo.sk"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"nette/di": "*"
+	},
+	"autoload": {
+		"psr-0": {"Bazo": "src/"}
+	}
+}
