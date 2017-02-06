@@ -19,7 +19,7 @@ class EventsExtension extends Nette\DI\CompilerExtension
 
 		$builder->addDefinition($this->prefix('dispatcher'))
 				->setClass(\Bazo\Events\EventDispatcher::class)
-				->setInject(FALSE);
+				;
 	}
 
 
